@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   base: '/Residencia-del-Hamor/',
   build: {
-    outDir: 'dist', // Output folder for the build
+    outDir: 'dist',
   },
-  publicDir: 'public', // Ensure Vite serves the public folder
+  publicDir: 'public',
 })
