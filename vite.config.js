@@ -4,9 +4,12 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  root: "src",  // Set the source directory
   plugins: [react(),
     tailwindcss(),
   ],
   base: '/Residencia-del-Hamor/',
+  build: {
+    outDir: 'dist',  // Output directory for deployment
+  },
+  publicDir: 'public',  // Ensure public assets are served correctly
 })
