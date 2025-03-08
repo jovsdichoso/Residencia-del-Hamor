@@ -8,8 +8,4 @@ export default defineConfig({
     tailwindcss(),
   ],
   base: '/Residencia-del-Hamor/',
-  build: {
-    outDir: 'dist',  // Output directory for deployment
-  },
-  publicDir: 'public',  // Ensure public assets are served correctly
 })
